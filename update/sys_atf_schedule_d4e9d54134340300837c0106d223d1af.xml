@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_schedule">
+    <sys_atf_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <description>This schedule will perform the following actions:
+
+Run suite 'Child A' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <name>My New Schedule</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-08-23 18:07:32</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('d4e9d54134340300837c0106d223d1af');]]></script>
+        <sys_class_name>sys_atf_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-23 18:07:35</sys_created_on>
+        <sys_id>d4e9d54134340300837c0106d223d1af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My New Schedule</sys_name>
+        <sys_package display_value="test" source="x_test">e495918934f00300837c0106d223d19b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">e495918934f00300837c0106d223d19b</sys_scope>
+        <sys_update_name>sys_atf_schedule_d4e9d54134340300837c0106d223d1af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-23 18:07:41</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_atf_schedule>
+</record_update>

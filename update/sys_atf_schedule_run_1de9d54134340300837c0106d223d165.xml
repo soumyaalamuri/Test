@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_schedule_run">
+    <sys_atf_schedule_run action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <browser_name>any</browser_name>
+        <browser_version/>
+        <description>Run suite 'Child A' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <order>100</order>
+        <os_name>any</os_name>
+        <os_version/>
+        <schedule display_value="My New Schedule">d4e9d54134340300837c0106d223d1af</schedule>
+        <sys_class_name>sys_atf_schedule_run</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-23 18:07:41</sys_created_on>
+        <sys_id>1de9d54134340300837c0106d223d165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="test" source="x_test">e495918934f00300837c0106d223d19b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test">e495918934f00300837c0106d223d19b</sys_scope>
+        <sys_update_name>sys_atf_schedule_run_1de9d54134340300837c0106d223d165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-23 18:07:41</sys_updated_on>
+        <test_suite display_value="Child A">845f8b900b20220050192f15d6673aee</test_suite>
+        <watch_list/>
+    </sys_atf_schedule_run>
+</record_update>
